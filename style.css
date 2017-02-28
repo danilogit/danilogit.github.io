@@ -1,0 +1,49 @@
+.caret {
+    display: inline-block;
+    width: 3px;
+    margin-bottom: -2px;
+    margin-left: 3px;
+    margin-right: -4px;
+    height: 16px;
+    animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    49% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+body {
+  padding: 10px 100px;
+  font-family: Consolas, monaco, monospace, courier;
+  background-color: #111;
+  color: green;
+  font-size: 15px;
+}
+
+code {
+  background-color: #0D3A0D;
+}
+
+input[type="text"] {
+  background-color: #111;
+  font-family: Consolas, monaco, monospace, courier;
+  color: green;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  width: 90%;
+}
+/*This is a terminal where you can interact with me, type anything below or "help" for more instructions.*/
